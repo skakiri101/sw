@@ -22,7 +22,7 @@ with open("C:/data/linetest.txt","r") as f: #파일 열기
 print()
 
 with open("C:/data/linetest.txt","r") as f: #파일 열기
-    textlists=f.readlines() #한 줄식 리스트 형식으로 읽어 오기
+    textlists=f.readlines() #한꺼번에 줄식 리스트 형식으로 읽어 오기
     print(type(textlists)) #변수 타입 확인
     print(textlists)
 
